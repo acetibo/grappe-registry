@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "admin-shell",
+  "type": "registry:block",
+  "description": "Layout admin pour zones /admin/* des apps grappe : sidebar collapsible (responsive, devient Sheet mobile, persistante via cookie) + topbar minimaliste (user dropdown + indicateur thème) + slot main.",
+  "registryDependencies": ["sidebar", "dropdown-menu", "sheet", "separator"],
+  "files": [
+    {
+      "path": "components/admin-shell.tsx",
+      "type": "registry:component",
+      "content": "// PLACEHOLDER — sera implémenté dans PR-4 (Wepo pilote sidebar admin)\n// puis publié ici depuis l'app pilote.\n//\n// Référence : grappe-crm/crm-maison/charte-graphique.md §4.1\n//\n// Composition cible :\n// - Sidebar collapsible shadcn (responsive, Sheet mobile, persistante via cookie)\n// - Topbar minimaliste : UserDropdown + ThemeIndicator\n// - Slot <main> pour le contenu de page\n//\n// API publique attendue :\n//   interface AdminShellProps {\n//     routes: NavItem[]\n//     children: React.ReactNode\n//   }\n\nexport default function AdminShell() {\n  return null\n}\n"
+    }
+  ]
+}

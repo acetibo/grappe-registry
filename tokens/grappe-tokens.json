@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tokens",
+  "type": "registry:style",
+  "description": "Tokens CSS communs grappe CRM (couleurs branding + sémantiques + neutres, radius, shadows, fonts, nav). Spec normative : grappe-crm/crm-maison/charte-graphique.md §2.",
+  "cssVars": {
+    "theme": {
+      "color-primary": "#2563eb",
+      "color-primary-dark": "#1d4ed8",
+      "color-primary-light": "#eff6ff",
+      "color-primary-text": "#ffffff",
+      "color-secondary": "#0f766e",
+      "color-success": "#059669",
+      "color-warning": "#f59e0b",
+      "color-danger": "#dc2626",
+      "color-info": "#0284c7",
+      "color-bg": "#ffffff",
+      "color-fg": "#171717",
+      "color-border": "#e2e8f0",
+      "color-muted": "#f8fafc",
+      "color-muted-fg": "#64748b",
+      "radius-sm": "0.25rem",
+      "radius-md": "0.5rem",
+      "radius-lg": "0.75rem",
+      "shadow-card": "0 1px 3px 0 rgba(0,0,0,0.07), 0 1px 2px -1px rgba(0,0,0,0.06)",
+      "shadow-elevated": "0 10px 15px -3px rgba(0,0,0,0.10), 0 4px 6px -4px rgba(0,0,0,0.05)",
+      "nav-bg": "#ffffff",
+      "nav-text": "#1d4ed8"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "grappe",
+  "homepage": "https://github.com/acetibo/grappe-registry",
+  "items": [
+    {
+      "name": "tokens",
+      "type": "registry:style",
+      "description": "Tokens CSS communs grappe (couleurs, radius, shadows, fonts, nav). Référence : grappe-crm/crm-maison/charte-graphique.md §2."
+    },
+    {
+      "name": "base",
+      "type": "registry:style",
+      "description": "Reset @layer base partagé grappe (cursor pointer, focus visible, bordures par défaut)."
+    },
+    {
+      "name": "admin-shell",
+      "type": "registry:block",
+      "description": "Layout admin (sidebar collapsible + topbar minimaliste) pour zones /admin/* des apps grappe."
+    }
+  ]
+}
