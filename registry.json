@@ -16,7 +16,7 @@
     {
       "name": "admin-shell",
       "type": "registry:block",
-      "description": "Layout admin (sidebar collapsible + topbar minimaliste) pour zones /admin/* des apps grappe."
+      "description": "Layout admin (sidebar collapsible + topbar minimaliste) pour zones /admin/* des apps grappe. v0.1 (Wave 1) — API stable, validation prod en cours côté Wepo."
     }
   ]
 }
